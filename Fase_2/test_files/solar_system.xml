@@ -1,0 +1,117 @@
+<world>
+	<window width="512" height="512"/>
+	<camera>
+		<position x="10" y="3" z="10"/>
+		<lookAt x="0" y="0" z="0"/>
+		<up x="0" y="1" z="0"/>
+		<projection fov="60" near="1" far="1000"/>
+	</camera>
+	<group>
+		<transform>
+			<scale x="696" y="696" z="696"/>
+			<translate x="0" y="0" z="0"/>
+			<rotate x="0.46" y="0.27" z="0.42" angle="343.64"/>
+		</transform>
+		<models>
+			<model file="sphere_1_12_12.3d"/>
+		</models>
+	</group>
+	<group>
+		<transform>
+			<scale x="2" y="2" z="2"/>
+			<translate x="57.9" y="0" z="0"/>
+			<rotate x="0.49" y="0.51" z="0.60" angle="85.37"/>
+		</transform>
+		<models>
+			<model file="sphere_1_12_12.3d"/>
+		</models>
+	</group>
+	<group>
+		<transform>
+			<scale x="6" y="6" z="6"/>
+			<translate x="108.2" y="0" z="0"/>
+			<rotate x="0.05" y="0.73" z="0.63" angle="332.14"/>
+		</transform>
+		<models>
+			<model file="sphere_1_12_12.3d"/>
+		</models>
+	</group>
+	<group>
+		<transform>
+			<scale x="6" y="6" z="6"/>
+			<translate x="149.6" y="0" z="0"/>
+			<rotate x="0.54" y="0.92" z="0.27" angle="83.33"/>
+		</transform>
+		<models>
+			<model file="sphere_1_12_12.3d"/>
+		</models>
+	</group>
+	<group>
+		<transform>
+			<scale x="3" y="3" z="3"/>
+			<translate x="227.9" y="0" z="0"/>
+			<rotate x="0.21" y="0.61" z="0.08" angle="194.93"/>
+		</transform>
+		<models>
+			<model file="sphere_1_12_12.3d"/>
+		</models>
+	</group>
+	<group>
+		<transform>
+			<scale x="71" y="71" z="71"/>
+			<translate x="778.6" y="0" z="0"/>
+			<rotate x="0.76" y="0.18" z="0.02" angle="324.31"/>
+		</transform>
+		<models>
+			<model file="sphere_1_12_12.3d"/>
+		</models>
+	</group>
+	<group>
+		<transform>
+			<scale x="60" y="60" z="60"/>
+			<translate x="1433.5" y="0" z="0"/>
+			<rotate x="0.09" y="0.08" z="0.77" angle="248.24"/>
+		</transform>
+		<models>
+			<model file="sphere_1_12_12.3d"/>
+		</models>
+		<group>
+			<transform>
+				<rotate x="0.55" y="0.79" z="0.08" angle="99.98"/>
+			</transform>
+			<models>
+				<model file="ring_3_4_20.3d"/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<transform>
+			<scale x="26" y="26" z="26"/>
+			<translate x="2872.5" y="0" z="0"/>
+			<rotate x="0.38" y="0.64" z="0.78" angle="188.40"/>
+		</transform>
+		<models>
+			<model file="sphere_1_12_12.3d"/>
+		</models>
+	</group>
+	<group>
+		<transform>
+			<scale x="25" y="25" z="25"/>
+			<translate x="4495.1" y="0" z="0"/>
+			<rotate x="0.32" y="0.92" z="0.22" angle="197.24"/>
+		</transform>
+		<models>
+			<model file="sphere_1_12_12.3d"/>
+		</models>
+	</group>
+	<group>
+		<transform>
+			<scale x="1" y="1" z="1"/>
+			<translate x="5906.4" y="0" z="0"/>
+			<rotate x="0.74" y="0.17" z="0.24" angle="351.78"/>
+		</transform>
+		<models>
+			<model file="sphere_1_12_12.3d"/>
+		</models>
+	</group>
+</world>

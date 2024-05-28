@@ -1,0 +1,492 @@
+<world>
+	<window width="512" height="512"/>
+	<camera>
+		<position x="750" y="150" z="750"/>
+		<lookAt x="0" y="0" z="0"/>
+		<up x="0" y="1" z="0"/>
+		<projection fov="90" near="100" far="10000"/>
+	</camera>
+	<group>
+		<transform>
+			<rotate x="0" y="1" z="0" angle="162"/>
+			<translate x="" y="" z=""/>
+		</transform>
+		<group>
+			<!--Sun-->
+			<transform>
+				<scale x="278" y="278" z="278"/>
+			</transform>
+			<models>
+				<model file="sphere_1_12_12.3d"/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<transform>
+			<rotate x="0" y="1" z="0" angle="168"/>
+			<translate x="348" y="0" z="0"/>
+		</transform>
+		<group>
+			<!--Mercury-->
+			<transform>
+				<scale x="2" y="2" z="2"/>
+			</transform>
+			<models>
+				<model file="sphere_1_12_12.3d"/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<transform>
+			<rotate x="0" y="1" z="0" angle="171"/>
+			<translate x="376" y="0" z="0"/>
+		</transform>
+		<group>
+			<!--Venus-->
+			<transform>
+				<scale x="6" y="6" z="6"/>
+			</transform>
+			<models>
+				<model file="sphere_1_12_12.3d"/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<transform>
+			<rotate x="0" y="1" z="0" angle="164"/>
+			<translate x="413" y="0" z="0"/>
+		</transform>
+		<group>
+			<!--Earth-->
+			<transform>
+				<scale x="6" y="6" z="6"/>
+			</transform>
+			<models>
+				<model file="sphere_1_12_12.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Moon-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="40"/>
+				<translate x="12" y="0" z="0"/>
+				<scale x="1.738" y="1.738" z="1.738"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<transform>
+			<rotate x="0" y="1" z="0" angle="325"/>
+			<translate x="483" y="0" z="0"/>
+		</transform>
+		<group>
+			<!--Mars-->
+			<transform>
+				<scale x="3" y="3" z="3"/>
+			</transform>
+			<models>
+				<model file="sphere_1_12_12.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Phobos-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="107"/>
+				<translate x="3" y="0" z="0"/>
+				<scale x="0.011" y="0.011" z="0.011"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Deimos-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="71"/>
+				<translate x="3" y="0" z="0"/>
+				<scale x="0.006" y="0.006" z="0.006"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<transform>
+			<rotate x="0" y="1" z="0" angle="266"/>
+			<translate x="979" y="0" z="0"/>
+		</transform>
+		<group>
+			<!--Jupiter-->
+			<transform>
+				<scale x="71" y="71" z="71"/>
+			</transform>
+			<models>
+				<model file="sphere_1_12_12.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Io-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="143"/>
+				<translate x="89" y="0" z="0"/>
+				<scale x="1.822" y="1.822" z="1.822"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Europa-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="124"/>
+				<translate x="74" y="0" z="0"/>
+				<scale x="1.561" y="1.561" z="1.561"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Ganymede-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="70"/>
+				<translate x="135" y="0" z="0"/>
+				<scale x="2.6310000000000002" y="2.6310000000000002" z="2.6310000000000002"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Callisto-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="311"/>
+				<translate x="135" y="0" z="0"/>
+				<scale x="2.41" y="2.41" z="2.41"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Amalthea-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="300"/>
+				<translate x="77" y="0" z="0"/>
+				<scale x="0.083" y="0.083" z="0.083"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<transform>
+			<rotate x="0" y="1" z="0" angle="281"/>
+			<translate x="1568" y="0" z="0"/>
+		</transform>
+		<group>
+			<!--Saturn-->
+			<transform>
+				<scale x="60" y="60" z="60"/>
+			</transform>
+			<models>
+				<model file="sphere_1_12_12.3d"/>
+				<model file="ring_3_4_20.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Mimas-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="97"/>
+				<translate x="98" y="0" z="0"/>
+				<scale x="0.198" y="0.198" z="0.198"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Enceladus-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="356"/>
+				<translate x="114" y="0" z="0"/>
+				<scale x="0.252" y="0.252" z="0.252"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Tethys-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="17"/>
+				<translate x="101" y="0" z="0"/>
+				<scale x="0.533" y="0.533" z="0.533"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Dione-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="265"/>
+				<translate x="105" y="0" z="0"/>
+				<scale x="0.562" y="0.562" z="0.562"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Rhea-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="44"/>
+				<translate x="82" y="0" z="0"/>
+				<scale x="0.764" y="0.764" z="0.764"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<transform>
+			<rotate x="0" y="1" z="0" angle="3"/>
+			<translate x="2864" y="0" z="0"/>
+		</transform>
+		<group>
+			<!--Uranus-->
+			<transform>
+				<scale x="26" y="26" z="26"/>
+			</transform>
+			<models>
+				<model file="sphere_1_12_12.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Ariel-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="44"/>
+				<translate x="36" y="0" z="0"/>
+				<scale x="0.579" y="0.579" z="0.579"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Umbriel-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="219"/>
+				<translate x="47" y="0" z="0"/>
+				<scale x="0.585" y="0.585" z="0.585"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Titania-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="37"/>
+				<translate x="48" y="0" z="0"/>
+				<scale x="0.789" y="0.789" z="0.789"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Oberon-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="105"/>
+				<translate x="38" y="0" z="0"/>
+				<scale x="0.761" y="0.761" z="0.761"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Miranda-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="342"/>
+				<translate x="46" y="0" z="0"/>
+				<scale x="0.23600000000000002" y="0.23600000000000002" z="0.23600000000000002"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<transform>
+			<rotate x="0" y="1" z="0" angle="75"/>
+			<translate x="4324" y="0" z="0"/>
+		</transform>
+		<group>
+			<!--Neptune-->
+			<transform>
+				<scale x="25" y="25" z="25"/>
+			</transform>
+			<models>
+				<model file="sphere_1_12_12.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Triton-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="160"/>
+				<translate x="48" y="0" z="0"/>
+				<scale x="1.353" y="1.353" z="1.353"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Nereid-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="180"/>
+				<translate x="42" y="0" z="0"/>
+				<scale x="0.17" y="0.17" z="0.17"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Naiad-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="3"/>
+				<translate x="33" y="0" z="0"/>
+				<scale x="0.033" y="0.033" z="0.033"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Thalassa-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="181"/>
+				<translate x="42" y="0" z="0"/>
+				<scale x="0.041" y="0.041" z="0.041"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Despina-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="70"/>
+				<translate x="41" y="0" z="0"/>
+				<scale x="0.075" y="0.075" z="0.075"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<transform>
+			<rotate x="0" y="1" z="0" angle="296"/>
+			<translate x="5594" y="0" z="0"/>
+		</transform>
+		<group>
+			<!--Pluto-->
+			<transform>
+				<scale x="1" y="1" z="1"/>
+			</transform>
+			<models>
+				<model file="sphere_1_12_12.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Charon-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="18"/>
+				<translate x="3" y="0" z="0"/>
+				<scale x="0.604" y="0.604" z="0.604"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Nix-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="359"/>
+				<translate x="2" y="0" z="0"/>
+				<scale x="0.023" y="0.023" z="0.023"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Hydra-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="85"/>
+				<translate x="2" y="0" z="0"/>
+				<scale x="0.03" y="0.03" z="0.03"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Kerberos-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="318"/>
+				<translate x="1" y="0" z="0"/>
+				<scale x="0.014" y="0.014" z="0.014"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+		<group>
+			<!--Styx-->
+			<transform>
+				<rotate x="0" y="1" z="0" angle="33"/>
+				<translate x="2" y="0" z="0"/>
+				<scale x="0.01" y="0.01" z="0.01"/>
+			</transform>
+			<models>
+				<model file="sphere_1_5_5.3d"/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<transform>
+			<translate time="10" align="true">
+				<point x="500" y="0" z="0"/>
+				<point x="0" y="0" z="500"/>
+				<point x="-500" y="0" z="0"/>
+				<point x="0" y="0" z="-500"/>
+			</translate>
+			<rotate x="1" y="0" z="0" angle="-90"/>
+			<scale x="20" y="20" z="20"/>
+		</transform>
+		<models>
+			<model file="bezier_10.3d"/>
+		</models>
+		<group>
+			<models>
+				<model file="ring_3_4_20.3d"/>
+			</models>
+			<transform>
+				<rotate x="1" y="0" z="0" angle="90"/>
+				<translate x="0" y="1" z="0"/>
+			</transform>
+		</group>
+	</group>
+</world>
